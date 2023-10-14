@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohith Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 87px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        main hr {
+            margin: 40px 80px;
+            height: 1px;
+            background: rgb(172, 100, 255);
+            border: 0;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(170, 170, 233);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5638rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            /*background-color: crimson;*/
+            font-size: 2.2rem;
+            margin: 70px 0;
+        }
+
+        /* .rightsection{
+           background-color: crimson;
+        }*/
+        .rightsection img {
+            width: 100%;
+
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .purple {
+            color: rgb(170, 61, 224);
+        }
+
+        #element {
+            color: rgb(190, 116, 240);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .box {
+            background: white;
+            height: 2px;
+            width: 80vw;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .vertical {
+            background-color: white;
+            height: 90px;
+            margin: 0 175px;
+            width: 1px;
+        }
+
+        .Title {
+            width: 50vw;
+            position: relative;
+            font-size: 1.1rem;
+            top: 45px;
+            left: -15px;
+
+
+        }
+
+        .desc {
+            color: gray;
+            width: 20vw;
+            position: relative;
+            font-size: 1.1rem;
+            top: 70px;
+            left: -55px;
+            margin: 0 23px;
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -40px;
+            left: -10px;
+        }
+        footer{
+            background-color:rgb(17, 17, 63);
+            height:20vh;
+        }
+        .flex{
+            display:flex;
+            margin:23px 122px;
+            justify-content: space-around;
+        }
+
+        .footer2 ul{
+            justify-content: space-evenly;
+            list-style: none;
+        }
+
+        .buttons{
+            padding:23px;
+        }
+
+        .btns{
+            padding:12px;
+            background: #1e2167;
+            color:white;
+            border:2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btns:hover{
+            text-decoration:none;
+            color: white;
+            font-size: 1.01rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mohith's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, I am <span class="purple">Mohith!</span>
+                <div>And I am a passionate</div>
+                <div>Computer Scientist</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btns">Download Resume</button>
+                    <button class="btns">Visit Githb</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="image1.PNG" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="image2.png" alt="" class="image-top">
+                    <div class="Title">Java Developer<div>(2022-2023)</div>
+                    </div>
+                    <div class="desc">Developed a project managemant website using java and python</div>
+                </div>
+                <div class="des"></div>
+                <div class="vertical">
+                    <img src="image2.png" alt="" class="image-top">
+                    <div class="Title">UI/UX Designer <div>(2022-2023)</div>
+                    </div>
+                    <div class="desc">Developed the UI/UX of project management website</div>
+                </div>
+                <div class="vertical">
+                    <img src="image2.png" alt="" class="image-top">
+                    <div class="Title">Python Developer <div>(2022-2023)</div>
+                    </div>
+                    <div class="desc">Developed a project managemant website using java and python,guessing game</div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer1"><h3>My Portfolio</h3></div>
+            <div class="footer2">
+                <ul>
+                    <li>Home</li>
+                    <li>contact</li>
+                    <li>link</li>
+                    <li>connect</li>
+                </ul>
+            </div>
+            <div class="footer3"></div>
+            <div class="footer4"></div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer,', 'UI/UX Designer', '&amp; a Python Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
